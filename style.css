@@ -1,0 +1,54 @@
+*{
+    padding:0;
+margin: 5px;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+body{
+    font: normal 18px Arial;
+    background: rgb(255, 255, 255);
+}
+img#logo{
+    width: 200px;
+    opacity: 0.8;
+    float: left;
+    border: 1px solid black;
+       
+}
+h1{
+    background: rgb(255, 255, 255);
+    float: left;
+    margin: 30px 0px 0px 100px;
+}
+main{
+    clear: both;
+}
+.q1{
+    line-height: 50px;
+}
+.r1{
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.imgq1{
+    width: 100px;
+    opacity: 0.5;
+}
+.imgq1:hover{
+    width: 600px;
+    opacity: 1;
+}
+#rodape{
+    background: rgb(189, 224, 189);
+    line-height: 100px;
+    text-align: center;
+}
+.rodape{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
