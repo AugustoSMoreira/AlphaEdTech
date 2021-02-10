@@ -13,11 +13,22 @@
 <body>
     <header>
         <img id="logo" src="logo200.png" alt="imagem de fundo">
-
         <h1>Respostas aos exercícios: <br>Conhecendo a internet </h1>
     </header>
+    <nav id="navegacao">
+        <a href="#r1" class="linkQuestao">Questão 1</a>|
+        <a href="#r2" class="linkQuestao">Questão 2</a>|
+        <a href="#r3" class="linkQuestao">Questão 3</a>|
+        <a href="#r4" class="linkQuestao">Questão 4</a>|
+        <a href="#r5" class="linkQuestao">Questão 5</a>|
+        <a href="#r6" class="linkQuestao">Questão 6</a>|
+        <a href="#r7" class="linkQuestao">Questão 7</a>
+    </nav>
+    <button id="botao">
+        <a class="back" href="index.html">Voltar</a>
+    </button>
     <main>
-        <h2 class="q1">Questão 1:Acesse um domínio, informe o endereço acessado e qual o seu endereço ipv4.</h2>
+        <h2 id="r1" class="q1">Questão 1:Acesse um domínio, informe o endereço acessado e qual o seu endereço ipv4.</h2>
         <p class="r1">
             Ferramenta de Dev do Google F12 <br>
             Network – header <br>
@@ -25,7 +36,7 @@
             2. Remote Address: 104.21.25.49:443
         </p>
 
-        <h2 class="q1">Questão 2:Descubra e exiba o endereço ipv6 de um domínio com a ferramenta nslookup</h2>
+        <h2 id="r2" class="q1">Questão 2:Descubra e exiba o endereço ipv6 de um domínio com a ferramenta nslookup</h2>
         <p class="r1">
             Pela ferramenta online nslookup <br>
             <code>nslookup</code> pelo CMD – google.com <br>
@@ -34,20 +45,20 @@
             <img class="imgq1" src="nslookupsite.jpg" alt="nslookup pelo site">
         </p>
 
-        <h2 class="q1">Questão 3:Descubra e exiba o endereço da sua placa de rede utilizada para acessar a internet, o
+        <h2 id="r3" class="q1">Questão 3:Descubra e exiba o endereço da sua placa de rede utilizada para acessar a internet, o
             gateway e o DNS utilizado.</h2>
         <p class="r1">
             Ipconfig /all <br>
             <img class="imgq1" src="ipconfigall.png" alt=" imagem cmd ip config all">
         </p>
 
-        <h2 class="q1">Questão 4:Utilize a ferramenta WHOIS para obter as informações de um domínio.</h2>
+        <h2 id="r4" class="q1">Questão 4:Utilize a ferramenta WHOIS para obter as informações de um domínio.</h2>
         <p class="r1">
             Utilize a ferramenta WHOIS para obter as informações de um domínio<br>
             <img class="imgq1" src="dominiowhois.png" alt="imagem de dominio whois">
         </p>
 
-        <h2 class="q1">Questão 5: Quais são as portas utilizadas normalmente para envio (SMTP) e recebimento de e-mails
+        <h2 id="r5" class="q1">Questão 5: Quais são as portas utilizadas normalmente para envio (SMTP) e recebimento de e-mails
             (POP3 e IMAP) padrões utilizados na internet?</h2>
         <p class="r1">
             Porta SMTP 25 é a porta padrão para envio de mensagens usando o servidor de e-mail SMTP.<br>
@@ -61,14 +72,14 @@
             465 – Porta SSL, também conhecidas como SMTPS<br>
             587 – Porta TLS, também conhecida como SMTP TLS<br>
         </p>
-        <h2 class="q1">Questão 6:Exiba as informações de análise de PING e Traceroute para um domínio.</h2>
+        <h2 id="r6" class="q1">Questão 6:Exiba as informações de análise de PING e Traceroute para um domínio.</h2>
         <p class="r1">
            <img class="imgq1" src="pingkenji.png" alt="imagem de ping"><br>
            <img class="imgq1" src="tracerouterkenji.png" alt="imagem de tracerouter"><br>
         </p>
-        <h2 class="q1">Questão 7:Acesse um serviço de web service e exiba o conteúdo. Este conteúdo é em qual formato
+        <h2 id="r7" class="q1">Questão 7:Acesse um serviço de web service e exiba o conteúdo. Este conteúdo é em qual formato
             (XML/JSON)?</h2>
-        <p class="r1">
+        <p class="r7">
             <strong>Esse é um exemplo em Json, pois possui uma estrutura entre colchetes e chaves.</strong><br>
             Se a ideia é criar aplicações leves, rápidas, sem muitas exigências (como é geralmente o caso na web) e, principalmente, o JavaScript faz parte do dia a dia, o JSON deve facilitar muito seu trabalho.<br>
             Além disso, com o aumento no número de web designers aprendendo a linguagem para fazer mágicas em seus <br> trabalhos, JSON acaba mais aceito por ter inicialmente melhor legibilidade.<br>
